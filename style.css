@@ -1,0 +1,26 @@
+/* Base CSS */
+html{
+    font-size: 10px;
+}
+
+/* First bottom layer */
+body{
+    background-color: #E52521;
+}
+
+/* Header container for title and description */
+header{
+    color: #FBD000;
+    text-align: center;
+    margin: 50px 20px;
+}
+
+/* Main title */
+#title{
+    font: 3rem "Press Start 2P", cursive;
+}
+
+/* Main title description */
+#description{
+    font: 2rem "Roboto Condensed", sans-serif;
+}
