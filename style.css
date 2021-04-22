@@ -81,3 +81,39 @@ textarea{
     color: #FBD000;
     cursor: pointer;
 }
+
+/* Submit button when hovering */
+#submit:hover{
+    background-color: #3498DB;
+}
+
+/* Desktop size only */
+@media only screen and (min-width: 1000px){
+    #title{
+        font: 4rem "Press Start 2P", cursive;
+    }
+
+    #description{
+        font: 3.5rem "Roboto Condensed", sans-serif;
+    }
+
+    label{
+        font: 3rem "Roboto Condensed", sans-serif;
+    }
+
+    input[type=text], input[type=email]{
+        font-size: 2.5rem;
+    }
+    
+    input[type=number], select{
+        font-size: 2.5rem;
+    }
+
+    textarea{
+        font-size: 2.5rem;
+    }
+    
+    #submit{
+        font: 3rem "Roboto Condensed", sans-serif;
+    }
+}
