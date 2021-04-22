@@ -6,13 +6,15 @@ html{
 /* First bottom layer */
 body{
     background-color: #E52521;
+    color: #FBD000;
 }
 
 /* Header container for title and description */
 header{
-    color: #FBD000;
     text-align: center;
-    margin: 50px 20px;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 /* Main title */
@@ -22,5 +24,60 @@ header{
 
 /* Main title description */
 #description{
+    font: 2.5rem "Roboto Condensed", sans-serif;
+}
+
+/* Form container for survey */
+#survey-form{
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* Labels */
+label{
     font: 2rem "Roboto Condensed", sans-serif;
+}
+
+/* Text input and email input */
+input[type=text], input[type=email]{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    border: 5px solid #3498DB;
+    border-radius: 5px;
+}
+
+/* Dropdown menu and number input */
+input[type=number], select{
+    width: 40%;
+    margin: 10px 0;
+    padding: 5px 5px;
+    font-size: 1.5rem;
+    border: 5px solid #3498DB;
+    border-radius: 5px;
+}
+
+/* Radio buttons and checkboxes */
+input[type=radio], input[type=checkbox]{
+    margin: 10px 0;
+}
+
+/* Text area */
+textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+/* Submit button when inactive */
+#submit{
+    font: 2rem "Roboto Condensed", sans-serif;
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #28B463;
+    color: #FBD000;
+    cursor: pointer;
 }

@@ -13,9 +13,88 @@
 
     <!-- Header containing the title and description -->
     <header>
-        <h1 id="title">Super Mario<br>Survey Form</h1>
-        <p id="description">Thanks for taking the time to let us know what you love about Super Mario!</p>
+        <h1 id="title">Mario Kart 8 Deluxe<br>Survey Form</h1>
+        <p id="description">Thanks for taking the time to let us know your opinion on Mario Kart 8 Deluxe!</p>
     </header>
+
+    <!-- Form containing the survey -->
+    <form id="survey-form">
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br>
+
+        <label for="number" id="number-label">Number of cups completed:</label><br>
+        <input type="number" id="number" name="number" min="0" max="12" placeholder="Enter a number" required><br>
+
+        <label for="dropdown" id="dropdown-label">Favourite Character:</label><br>
+        <select id="dropdown" name="dropdown">
+            <option value="Mario">Mario</option>
+            <option value="Luigi">Luigi</option>
+            <option value="Peach">Peach</option>
+            <option value="Daisy">Daisy</option>
+            <option value="Rosalina">Rosalina</option>
+            <option value="Yoshi">Yoshi</option>
+            <option value="Toad">Toad</option>
+            <option value="Toadette">Toadette</option>
+            <option value="Bowser">Bowser</option>
+            <option value="Donkey Kong">Donkey Kong</option>
+            <option value="Wario">Wario</option>
+            <option value="Waluigi">Waluigi</option>
+        </select><br>
+
+        <label>Favourite class:</label><br>
+        <input type="radio" id="50cc" name="class" value="50cc">
+        <label for="50cc">50cc</label><br>
+        <input type="radio" id="100cc" name="class" value="100cc">
+        <label for="100cc">100cc</label><br>
+        <input type="radio" id="150cc" name="class" value="150cc">
+        <label for="150cc">150cc</label><br>
+        <input type="radio" id="200cc" name="class" value="200cc">
+        <label for="200cc">200cc</label><br>
+
+        <label>Favourite item(s):</label><br>
+        <input type="checkbox" id="Red Mushroom(s)" name="Red Mushroom(s)" value="Red Mushroom(s)">
+        <label for="Red Mushroom(s)">Red Mushroom(s)</label><br>
+        <input type="checkbox" id="Red shell(s)" name="Red shell(s)" value="Red shell(s)">
+        <label for="Red shell(s)">Red shell(s)</label><br>
+        <input type="checkbox" id="Green shell(s)" name="Green shell(s)" value="Green shell(s)">
+        <label for="Green shell(s)">Green shell(s)</label><br>
+        <input type="checkbox" id="Banana(s)" name="Banana(s)" value="Banana(s)">
+        <label for="Banana(s)">Banana(s)</label><br>
+        <input type="checkbox" id="Gold Mushroom" name="Gold Mushroom" value="Gold Mushroom">
+        <label for="Gold Mushroom">Gold Mushroom</label><br>
+        <input type="checkbox" id="Blooper" name="Blooper" value="Blooper">
+        <label for="Blooper">Blooper</label><br>
+        <input type="checkbox" id="Bullet Bill" name="Bullet Bill" value="Bullet Bill">
+        <label for="Bullet Bill">Bullet Bill</label><br>
+        <input type="checkbox" id="Coin" name="Coin" value="Coin">
+        <label for="Coin">Coin</label><br>
+        <input type="checkbox" id="Bob-omb" name="Bob-omb" value="Bob-omb">
+        <label for="Bob-omb">Bob-omb</label><br>
+        <input type="checkbox" id="Boomerang Flower" name="Boomerang Flower" value="Boomerang Flower">
+        <label for="Boomerang Flower">Boomerang Flower</label><br>
+        <input type="checkbox" id="Fire Flower" name="Fire Flower" value="Fire Flower">
+        <label for="Fire Flower">Fire Flower</label><br>
+        <input type="checkbox" id="Piranha Plant" name="Piranha Plant" value="Piranha Plant">
+        <label for="Piranha Plant">Piranha Plant</label><br>
+        <input type="checkbox" id="Super Horn" name="Super Horn" value="Super Horn">
+        <label for="Super Horn">Super Horn</label><br>
+        <input type="checkbox" id="Super Star" name="Super Star" value="Super Star">
+        <label for="Super Star">Super Star</label><br>
+        <input type="checkbox" id="Lightning" name="Lightning" value="Lightning">
+        <label for="Lightning">Lightning</label><br>
+        <input type="checkbox" id="Blue Shell" name="Blue Shell" value="Blue Shell">
+        <label for="Blue Shell">Blue Shell</label><br>
+        <input type="checkbox" id="Boo" name="Boo" value="Boo">
+        <label for="Boo">Boo</label><br>
+
+        <label>Additional comments:</label><br>
+        <textarea name="text"></textarea><br>
+        
+        <input type="submit" id="submit" value="LET'S A GO!">
+    </form>
     
 </body>
 </html>
